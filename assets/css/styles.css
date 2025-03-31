@@ -287,6 +287,9 @@ img{
 .portfolio__img{
     position: relative;
     overflow: hidden;
+    /*width: 500px;*/
+    grid-column: 1 / span 2;
+    
 }
 .portfolio__img img{
     border-radius: .5rem;
@@ -361,21 +364,24 @@ img{
 }
 .footer__title{
     font-size: var(--normal-font-size);
-    color: var(--white-color);
+   /* color: var(--white-color);*/
+   color: white;
     margin-bottom: var(--mb-2);
 }
 .footer__link{
     padding: .25rem 0;
 }
 .footer__link:hover{
-    color: var(--first-color);
+    /*color: var(--first-color);*/
+    color: white;
 }
 .footer__social{
     font-size: 1.4rem;
     margin-right: var(--mb-1);
 }
 .footer__social:hover{
-    color: var(--first-color);
+   /* color: var(--first-color);*/
+   color: white;
 }
 
 /* ===== MEDIA QUERIES =====*/
@@ -489,4 +495,33 @@ img{
         width: 500px;
         right: 24%;
     }
+}
+
+/* Styles pour Expériences et Formation */
+#experience, #formation {
+    padding: 50px 10%;
+    background-color: #f9f9f9;
+}
+
+
+.experience-item, .formation-item {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #333333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3, .formation-item h3 {
+    margin: 0;
+    color: #333333;
+}
+
+.experience-item p, .formation-item p {
+    margin: 5px 0;
+}
+
+.experience-item span, .formation-item span {
+    font-weight: bold;
+    color: #333;
 }
