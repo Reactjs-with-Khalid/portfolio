@@ -75,6 +75,10 @@ sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
 sr.reveal('.contact__button', {delay: 600})
 
+/*SCROLL EXP*/
+sr.reveal('.experience-item', {interval: 300})
 
+/*SCROLL FORMATION*/
+sr.reveal('.formation-item', {interval: 300})
 
 
